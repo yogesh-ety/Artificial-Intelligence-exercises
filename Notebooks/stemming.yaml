@@ -1,0 +1,25 @@
+stemming_words:
+  - cats
+  - trouble
+  - troubling
+  - troubled
+  - friend
+  - friends
+  - friendship
+  - friendships
+  - stabil
+  - destabilize
+  - misunderstanding
+  - railroad
+  - moonlight
+  - football
+
+stemming_passage: >-
+  Pythoners are very intelligent and work very pythonly
+  and now they are pythoning their way to success.
+  'cause python's a very intelligent language.
+  The Internet of things (IoT) is a system of interrelated computing devices,
+  mechanical and digital machines provided with unique identifiers (UIDs) and 
+  the ability to transfer data over a network without requiring human-to-human 
+  or human-to-computer interaction.
+
