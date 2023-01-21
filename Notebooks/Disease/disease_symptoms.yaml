@@ -1,0 +1,36 @@
+# set of all symptoms
+symptoms: !!set {
+    back_pain, chest_pain, cough, fainting,
+    fatigue, fever, headache, sore_throat,
+    restlessness, sunken_eyes
+}
+
+# mapping of query for symptoms
+symptom_query:
+  back_pain : have back pains
+  chest_pain : have chest pain
+  cough : have cough
+  fainting : faint occasionally
+  fatigue : experience fatigue occasionally
+  fever : experience fever
+  headache : experience headaches 
+  sore_throat : experience sore throat
+  restlessness : experience restlessness
+  sunken_eyes : experience sunken eyes
+
+# mapping of symptoms for diseases
+disease_symptoms:
+  Alzheimers: !!set {chest_pain, fatigue}
+  Arthritis: !!set {back_pain, restlessness}
+  Asthma: !!set {fatigue, sunken_eyes}
+  Covid: !!set {cough, fever}
+  Diabetes: !!set {fatigue, restlessness}
+  Epilepsy: !!set {headache, sunken_eyes}
+  Glaucoma: !!set {fever, sore_throat}
+  Heart Disease: !!set {fainting}
+  Heat Stroke: !!set {fainting, fever}
+  Hyperthyroidism: !!set {restlessness, sunken_eyes}
+  Hypothermia: !!set {chest_pain, fatigue, sore_throat}
+  Jaundice: !!set {cough, fever, headache}
+  Sinusitis: !!set {fever, headache, sore_throat}
+  Tuberculosis: !!set {fatigue, fever, restlessness, sunken_eyes}
